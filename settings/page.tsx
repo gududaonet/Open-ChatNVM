@@ -1,4 +1,8 @@
 // app/settings/page.tsx
+// Settings Panel v1.0
+// By Chenmou-GududaoStudio(Github-GududaoNet/Open-ChatNVM)
+//https://github.com/gududaonet/open-chatnvm
+
 "use client";
 
 import { useCallback, useState } from "react";
@@ -212,9 +216,6 @@ export default function SettingsPage() {
           <p className="text-sm text-muted-foreground">
             请使用CF-AI-WEB备份文件(.json)。导入增量更新当前数据。
           </p>
-          <p className="text-sm text-muted-foreground">
-            如果需要备份图像，建议下载生成图片并连同提示词一起发送到新的文字聊天中(使用数据备份模型)
-          </p>
         </div>
 
         {/* 数据抹除部分 */}
@@ -229,7 +230,9 @@ export default function SettingsPage() {
             抹除所有数据
           </Button>
         </div>
-
+          <p className="text-sm text-muted-foreground">
+            控制面板 V1.0 By ChenMou <a href="https://github.com/gududaonet/open-chatnvm">Github</a>
+          </p>
       </div>
 
       <Footer classname="mt-auto mb-4" />
